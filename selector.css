@@ -1,0 +1,111 @@
+/* Universal selector */
+* {
+    word-spacing: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Element selector */
+p {
+    color: #55eb14;
+}
+
+/* ID selector */
+#heading {
+    color: blue;
+}
+
+#unique-box {
+    border: 2px solid purple;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+/* Class selector */
+.simply {
+    color: rgb(187, 0, 255);
+}
+
+.box {
+    background-color: yellow;
+}
+
+/* Attribute selector */
+input[type="text"] {
+    border: 2px solid #007bff
+}
+
+/* Descendant selector */
+/* Element */
+ul > li {
+    color:peru
+}
+
+ul.list li.highlight {
+    color: red;
+}
+
+/* Direct child selector */
+/* Class and element */
+ul.list > li {
+    list-style-type: square;
+    margin-left: 120px;
+}
+
+/* Direct child element */
+div > h2 {
+    color:purple;
+}
+
+/* Direct child class */
+.box > .child {
+    color:pink;
+}
+
+/* Multiple class selector within element */
+.inner-box.first-box {
+    color: palevioletred;
+}
+
+/* Multiple elements */
+h5,
+h6 {
+    color: plum;
+}
+
+/* Multiple classes */
+.multiple1,
+.multiple2 {
+    color: powderblue;
+}
+
+/* Adjacent sibling selector (Direct follow)*/
+/* Element */
+div + a {
+    color: rosybrown;
+}
+/* Class */
+.link + .box-sibling {
+    background-color: lightgreen;
+}
+
+/* General sibling selector (Not direct follow, all general-sibling class under box class will be changed
+/* Class */
+.box ~ .general-sibling {
+    background-color: yellow;
+}
+/* Element */
+h1 ~ h4 {
+    color: brown;
+} */
+
+/* Pseudo class selector */
+.pseudo-class-link:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/* Pseudo element selector */
+p::first-letter{
+    text-transform: capitalize;
+    color:red
+}

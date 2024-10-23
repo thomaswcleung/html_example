@@ -1,0 +1,41 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    pad
+    box-sizing: border-box;
+}
+
+.box {
+    background-color: blue;
+    color: white;
+    border: 3px solid red;
+    padding: 20px;
+    margin: 20px;
+}
+
+.box-1 {
+    margin: 50px;
+    width: 200px;
+    height: 100px;
+    overflow: scroll;
+}
+
+.box-2 {
+    width: 50%;
+    border-left: 10px dotted green;
+    border-right: 10px solid green;
+}
+
+.box-2 p {
+    width: 50%;
+}
+.box-3 {
+    max-width: 800px;
+    border-top-right-radius: 500px;
+    height: 600px;
+}
+
+/* .box-3 p {
+    width: 50%;
+} */

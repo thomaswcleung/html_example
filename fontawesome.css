@@ -1,0 +1,25 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 10px;
+}
+
+.fa-facebook {
+    color: red;
+    font-size: 50px;
+}
+
+.fa-facebook:hover {
+    color: green;
+}
+
+.fa-check {
+    color: green;
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.fa-xmark {
+    font-size: 50px;
+    font-weight: bold;
+    color: blue;
+}

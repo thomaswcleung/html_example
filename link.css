@@ -1,0 +1,27 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+/* Regular link */
+a {
+    text-decoration:none;
+    color: red;
+}
+
+/* Hover (Pseudo class) */
+a:hover {
+    color: green;
+}
+
+a:active {
+    color: purple;
+}
+
+a:focus {
+    color:yellow
+}
+
+a:visited {
+    color: coral;
+}

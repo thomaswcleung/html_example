@@ -1,0 +1,30 @@
+h1 {
+    color:red;
+}
+
+h2 {
+    color: blue;
+}
+
+header {
+    color:green
+}
+
+/* First h1 follow by header */
+header > h1 {
+    color: yellow
+}
+
+/* Select by id */
+#service {
+    background-color: aqua;
+}
+
+/* Select by class name */
+.container .card {
+    color:lime
+}
+
+.card {
+    color:purple
+}

@@ -28,7 +28,8 @@ body {
     /* flex-direction: row; (Default) */
     justify-content: space-around;
     flex-wrap: wrap;
-    gap20px;
+    margin: 4rem;
+    padding: 40px 30px;
 }
 
 .card {
@@ -136,3 +137,15 @@ i {
     color: green;
     margin-right: 10px;
 }
+
+@media (max-width: 768px) {
+    .card {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 40px 50px;
+    }
+    .container {
+        margin: 4rem;
+    }
+}
+

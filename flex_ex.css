@@ -81,3 +81,36 @@ aside li {
     background-color: #f4f4f4;
     border: 1px solid #ccc;
 }
+
+@media (max-width:768px) {
+    .header {
+        padding: 20px;
+    }
+
+    .header h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .nav-list {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .nav-list li {
+        border-bottom: 1px solid #ccc;
+    }
+
+    li.last-item {
+        border: none;
+    }
+
+    main {
+        flex-direction: column-reverse;
+    }
+
+    main aside {
+        width: 100%;
+        text-align: center;
+    }
+}

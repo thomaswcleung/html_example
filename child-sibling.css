@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2;
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 2rem;
+}
+
+/* Direct child of container */
+.container > p { /* ">" means 大仔 */
+    font-weight: bold;
+}
+
+.container > ul {
+    list-style: none;
+}
+
+.container > a {
+    color: red;
+}
+
+a link direct sibling of h1 with both of them are children of container
+.container h1 + a { /* a link follow immediately after h1 (兄弟) */
+    color: green;
+}
+
+/* All siblings after h1 and all of them are children of container */
+/* 所有兄弟 */
+.container h1 ~ a {
+    color: purple;
+}
+
+/* div 嘅阿哥係 ul */
+.container > ul ~ div {
+    background: blue;
+}
+
+/* Pseudo elements "::" */
+/*
+   ::first-letter
+   ::first-line
+   ::selection
+   ::required
+   ::placeholders
+   ::file-selector-button
+   ::marker
+ */
+
+/* Pseudo class ":" */
+
+
